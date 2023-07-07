@@ -1,5 +1,4 @@
 function func (v1,v2){
-	var fs = require("fs");
     var bt = document.createElement("button");
     bt.onclick = function(){
         submit(); return false;
@@ -12,9 +11,9 @@ function func (v1,v2){
     document.body.appendChild(bt);
     var q = "";
     if (d.getTime()%2==0) {
-    q= fs.readFileSync("./text.txt").toString('utf-8');
+    q= "Волк слабее льва и тигра, но в цирке он не выступает.";
     } else {
-    q=fs.readFileSync("./text2.txt").toString('utf-8');
+    q="Стремитесь не к успеху, а к ценностям, которые он дает.";
     }
     document.getElementById("quote").innerHTML = q;
 }
