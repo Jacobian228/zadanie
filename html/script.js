@@ -1,4 +1,3 @@
-//обход cors защиты для https
 function arr(){
     var links=[
         "https://dl.dropboxusercontent.com/scl/fi/c2l6j45ws78wd8meoqp27/text1.txt?rlkey=6kpmwmtxcr14k04lzv407dcpa&dl=0",
